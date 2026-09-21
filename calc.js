@@ -1,17 +1,23 @@
-const add = function(a, b) {
+let operand1;
+let operand2;
+let operator;
+
+const operate = (operator, operand1, operand2) => {
+    return operator(operand1, operand2);
+};
+
+const add = (a, b) => {
 	return a + b;
 };
 
-const subtract = function(a, b) {
+const subtract = (a, b) => {
 	return a - b;
 };
 
-const multiply = function(arr) {
-  return arr.reduce((product, current) => {
-    return product * current;
-  });
+const multiply = (a, b) => {
+    return a * b;
 };
 
-const divide = function(a, b) {
+const divide = (a, b) => {
     return a / b;
 }
