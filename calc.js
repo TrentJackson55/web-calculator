@@ -30,13 +30,13 @@ calcField.id = "calcField";
 body.appendChild(calcField);
 
 const display = document.createElement("div");
-display.id = "display";
+display.classList.add("display");
 calcField.appendChild(display);
 
 const digits = document.createElement("div");
-digits.id = "digits";
+digits.classList.add("digits")
 calcField.appendChild(digits);
 
 const operators = document.createElement("div");
-operators.id = "operators";
+operators.classList.add("operators");
 calcField.appendChild(operators);
