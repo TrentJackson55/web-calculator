@@ -11,3 +11,7 @@ const multiply = function(arr) {
     return product * current;
   });
 };
+
+const divide = function(a, b) {
+    return a / b;
+}
