@@ -21,3 +21,6 @@ const multiply = (a, b) => {
 const divide = (a, b) => {
     return a / b;
 };
+
+// create divs for display, digits and operators
+
