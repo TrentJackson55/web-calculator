@@ -23,4 +23,20 @@ const divide = (a, b) => {
 };
 
 // create divs for display, digits and operators
+const body = document.querySelector("body");
 
+const calcField = document.createElement("div");
+calcField.id = "calcField";
+body.appendChild(calcField);
+
+const display = document.createElement("div");
+display.id = "display";
+calcField.appendChild(display);
+
+const digits = document.createElement("div");
+digits.id = "digits";
+calcField.appendChild(digits);
+
+const operators = document.createElement("div");
+operators.id = "operators";
+calcField.appendChild(operators);
