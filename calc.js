@@ -21,24 +21,3 @@ const multiply = (a, b) => {
 const divide = (a, b) => {
     return a / b;
 };
-
-// create divs for display, digits and operators
-const body = document.querySelector("body");
-
-const calcField = document.createElement("div");
-calcField.id = "calcField";
-body.appendChild(calcField);
-
-// create and populate display field
-const display = document.createElement("div");
-display.classList.add("display");
-calcField.appendChild(display);
-// create and populate digit field
-const digits = document.createElement("div");
-digits.classList.add("digits")
-calcField.appendChild(digits);
-digits.textContent = 0;
-// create and populate operators field
-const operators = document.createElement("div");
-operators.classList.add("operators");
-calcField.appendChild(operators);
