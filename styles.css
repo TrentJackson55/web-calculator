@@ -13,13 +13,34 @@ body {
     border-style: solid;
     border-color: burlywood;
     min-height: 200px;
+    min-width: 400px;
     max-width: 400px;
+    padding: 20px;
 }
-.operators {
+
+#display-value {
+    margin-bottom: 100px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: beige;
+
+}
+
+#buttons {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.operators {
+    max-width: 40px;
 }
 
 .digits {
-    max-width: 80px;
+    max-width: 160px;
+}
+
+button {
+    min-width: 40px;
+    min-height: 40px
 }
