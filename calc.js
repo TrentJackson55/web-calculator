@@ -21,3 +21,22 @@ const multiply = (a, b) => {
 const divide = (a, b) => {
     return a / b;
 };
+
+const calcDisplay = document.querySelector('#display-value');
+const buttons = document.querySelector("button");
+
+let updateOperand1 = (digit) => {
+    operand1 += digit.textContent;
+    return operand1;
+}
+
+let updateOperand2 = (digit) => {
+    operand2 += digit.textContent;
+    return operand2;
+}
+
+buttons.forEach((button) => {
+    button.addEventListener("click", () => {
+        
+    });
+})

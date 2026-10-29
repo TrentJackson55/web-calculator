@@ -2,13 +2,14 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 300px;
+    background-color: darkslateblue;
 }
 
 #calculator {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color:blanchedalmond;
+    background-color:peachpuff;
     border-radius: 5px;
     border-style: solid;
     border-color: burlywood;
