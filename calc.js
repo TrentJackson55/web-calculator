@@ -37,6 +37,21 @@ let updateOperand2 = (digit) => {
 
 buttons.forEach((button) => {
     button.addEventListener("click", () => {
-        
+        if (
+            button.textContent == 
+             "+" ||
+             "-" ||
+             "*" ||
+             "/"
+        ) {
+            calcDisplay.textContent += `${ button.textContent }`;
+            operator = button.textContent;
+        } else if (button.textContent == "C") {
+            calcDisplay.textContent = "0";
+        } else if (button.textContent == "=") {
+            // run operate function by first checking which operation is
+            // present in the field and grabbing operands
+        }
+                
     });
 })
