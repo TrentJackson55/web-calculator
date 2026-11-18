@@ -27,12 +27,14 @@ button {
 #button-field {
     display: flex;
     flex-direction: row;
-    min-width: 300px;
-    min-height: 350px;
+    flex-wrap:wrap;
+    justify-content: center;
+    max-width: 300px;
+    min-height: 300px;
     border-style: double;
     border-radius: 2px;
     border-color: black;
-    padding: 20px;
+    padding: 20px 20px 20px 8px;
 }
 
 #digits {
@@ -44,10 +46,26 @@ button {
 }
 
 #functions {
-    max-width: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-right:10px;
+}
+
+#all-clear, #del, #equals {
+    color: black;
+    background-color: white;
+    width: 50px;
+    height: 50px;
 }
 
 .number {
+    color: black;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+}
+
+.operator {
     color: black;
     background-color: white;
     width: 50px;
