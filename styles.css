@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #c4a1ff;
 }
 
 h1 {
@@ -16,12 +17,12 @@ button {
 
 #display {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: #A7dbd8;
     padding: 20px 0px 20px 30px;
     border-style: double;
     border-radius: 2px;
-    border-color: white;
+    border-color: black;
 }
 
 #button-field {
@@ -34,6 +35,7 @@ button {
     border-style: double;
     border-radius: 2px;
     border-color: black;
+    background-color: #bafca2;
     padding: 20px 20px 20px 8px;
 }
 
