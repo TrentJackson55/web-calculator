@@ -1,5 +1,8 @@
-//define query selectors
-
+//define operand and operator variables, operate function
+let operand1 = 0;
+let operand2 = 0;
+let operator = "";
+const operate = (operator, op1, op2) => operator(op1, op2);
 
 // define arithmetic functions
 const add = (op1, op2) => op1 + op2;
