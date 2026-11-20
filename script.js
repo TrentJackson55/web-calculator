@@ -1,3 +1,9 @@
+//instantiate queryselectors
+const displayValue = document.querySelector("#display-value");
+const allClear = document.querySelector("#all-clear");
+const equals = document.querySelector("#equals");
+const del = document.querySelector("#del");
+
 //define operand and operator variables, operate function
 let operand1 = 0;
 let operand2 = 0;
